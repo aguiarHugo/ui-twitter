@@ -14,6 +14,8 @@ export function Status(){
     <main className="status">
           <Header title="Home" />
 
+          <Tweet content=" Lorem ipsum dolor sit amet consectetur a dipisicing elit. Odio sunt, eveniet tenetur excepturi "/>
+
           <form className="answer-tweet-form">
             <label htmlFor="tweet">
               <img src="https://github.com/aguiarHugo.png" alt="Hugo Aguiar" />
@@ -24,8 +26,6 @@ export function Status(){
           </form>
 
           <Separator />
-
-          
 
           {answers.map(answer => {
               return <Tweet key={answer} content={answer} />
