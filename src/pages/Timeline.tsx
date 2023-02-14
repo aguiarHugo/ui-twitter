@@ -14,8 +14,8 @@ const tweets = [
 export function Timeline(){
   const [newTweet, setNewTweet] = useState('')
   const [tweets, setTweets] = useState([
-    'Meu primeiro tweet',
-    'Teste',
+    'Meu primeiro tweet.',
+    'Hello World!',
     'Deu certo!'
   ])
 
