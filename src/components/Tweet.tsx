@@ -17,10 +17,7 @@ export function Tweet(props: TweetProps) {
           <span>@aguiarHugo</span>
         </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Mollitia magni beatae nemo dolore quos sequi natus 
-            tempore quas, commodi recusandae assumenda, dignissimos 
-            modi consectetur atque quis corrupti, quam delectus minus!
+          {props.content}
           </p>
         <div className="tweet-content-footer">
             <button type="button">

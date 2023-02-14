@@ -57,8 +57,8 @@ export function Timeline(){
           <Separator />
 
           {tweets.map(tweet => {
-              return <Tweet key={tweet} content={tweet} />  
-            })}
+            return <Tweet key={tweet} content={tweet} />
+         })}
 
         </main>
   )

@@ -28,7 +28,7 @@ export function Status(){
   
   return(
     <main className="status">
-          <Header title="Home" />
+          <Header title="Tweet" />
 
           <Tweet content=" Lorem ipsum dolor sit amet consectetur a dipisicing elit. Odio sunt, eveniet tenetur excepturi "/>
 
@@ -52,9 +52,8 @@ export function Status(){
           <Separator />
 
           {answers.map(answer => {
-              return <Tweet key={answer} content={answer} />
-            }
-          )}
+            return <Tweet key={answer} content={answer} />
+      })}
 
         </main>
   )
